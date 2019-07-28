@@ -1,7 +1,19 @@
 body{
-  margin: 0;
-  padding: 0;
+  border:1px solid #0094f;
+  height: 0;
+  margin:0;
+  padding:0;
+}
+.bg{
+  /* margin: 0px;
+  padding: 0px; */
+  height: 1200px;
+  width: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background: url(bg.jpg) no-repeat;
+  background-position: left top;
   background-size: cover;
 }
 .box{
@@ -10,7 +22,7 @@ body{
   padding: 40px;
   text-align: center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 8%;
   color: white;
   font-family: 'Century Gothic',sans-serif;
 }
@@ -33,20 +45,20 @@ body{
   text-align: justify;
 }
 ul{
-  margin: 0 ;
-  padding: 0 ;
+  margin: 0;
+  padding: 0;
 }
 .box li{
-  display: inline-block ;
-  margin: 6px ;
-  list-style: none ;
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
 }
 .box li a{
-  color: white ;
-  text-decoration: none ;
-  font-size: 60px ;
-  transition: all ease-in-out 250ms ;
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
 }
 .box li a:hover{
-  color: #9c9c9c ;
+  color: #9c9c9c;
 }

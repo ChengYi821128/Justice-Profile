@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="star.css">
     <link rel="stylesheet" href="label.css">
+    <link rel="stylesheet" href="myStyle.css">
+    <script type="text/javascript" src="animate.js"></script>
+    <script type="text/javascript" src="my.js"></script>
     <title>Justice Profile</title>
   </head>
-  <body>
-    <div class="wrap">
+  <body top="0">
+    <div class="wrapStar" style="z-index:9999;position:absolute;;">
       <div class="star"></div>
       <div class="star"></div>
       <div class="star"></div>
@@ -34,7 +37,7 @@
       <div class="star"></div>
       <div class="star"></div>
     </div>
-    <div class="header">
+    <div class="header" style="z-index:9999;position: relative;">
       <input type="checkbox" id="chk">
       <label for="chk" class="show-menu-btn">
         <i class="fas fa-ellipsis-h"></i>
@@ -49,16 +52,35 @@
         </label>
       </ul>
     </div>
-    <div class="box">
-      <img src="profile.jpg" alt="" class="box-img">
-      <h1>CHENG YI</h1>
-      <!-- <h5>Web Devloper - Justice</h5> -->
-      <p>To be, to believe.</p>
-    <ul>
-      <li><a href="https://www.facebook.com/profile.php?id=100000441501124&ref=bookmarks"><i class="fab fa-facebook-square"></i></a></li>
-      <li><a href="https://www.instagram.com/js.1128/?hl=zh-tw"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="https://mail.google.com/mail/u/1/#inbox"><i class="fab fa-google-plus-square"></i></a></li>
-    </ul>
+    <div style='position:absolute;top:0;'class="bg">
+      <div class="box">
+        <img src="profile.jpg" alt="" class="box-img">
+        <h1>CHENG YI</h1>
+        <!-- <h5>Web Devloper - Justice</h5> -->
+        <p>To be, to believe.</p>
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100000441501124&ref=bookmarks"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://www.instagram.com/js.1128/?hl=zh-tw"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://mail.google.com/mail/u/1/#inbox"><i class="fab fa-google-plus-square"></i></a></li>
+      </ul>
+      </div>
+    </div>
+    <div style='position: relative;top:1200px;'>
+      <div class="wrap" id="wrap">
+        <div class="slide" id="slide">
+          <ul>
+              <li><a href="#"><img src="1.jpg" alt=""/></a></li>
+              <li><a href="#"><img src="2.jpg" alt=""/></a></li>
+              <li><a href="#"><img src="3.jpg" alt=""/></a></li>
+              <li><a href="#"><img src="4.jpg" alt=""/></a></li>
+              <li><a href="#"><img src="5.jpg" alt=""/></a></li>
+          </ul>
+          <div class="arrow" id="arrow">
+              <a href="javascript:;" class="prev" id="arrLeft"></a>
+              <a href="javascript:;" class="next" id="arrRight"></a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
