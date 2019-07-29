@@ -1,12 +1,24 @@
 html{
   scroll-behavior: smooth;
+  height: 100%;
 }
 body{
   border:1px solid #0094f;
   height: 0;
   margin:0;
   padding:0;
+  height: 100%;
 }
+.footer{
+  width: auto;
+  height: 90px;
+  background:	#4682B4;
+  text-align: center;
+  margin: 10px;
+  font-size: 19px;
+  font-weight:bold;
+}
+
 .bg{
   /* margin: 0px;
   padding: 0px; */
