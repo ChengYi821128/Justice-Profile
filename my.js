@@ -44,7 +44,7 @@ window.onload = function () {
         {
             width:300,
             top:20,
-            left:820,
+            left:800,
             opacity:0.2,
             zIndex:2
         }
@@ -52,9 +52,13 @@ window.onload = function () {
 
     wrap.onmouseover = function () {
         animate(arrow,{"opacity":1});
+        clearInterval(timer);
     }
     wrap.onmouseout = function () {
         animate(arrow,{"opacity":0});
+        timer = setInterval(function(){
+          auto();
+        },2000)
     }
     function assign() {
         for(var i = 0;i < lis.length;i++){
@@ -76,4 +80,15 @@ window.onload = function () {
         config.unshift(config.pop());
         assign();
     }
+    var timer = setInterval(function(){
+      auto();
+    },2000)
+
+    function auto(){
+      flag = false;
+      config.push(config.shift());
+      assign();
+    }
+
+
 }
