@@ -44,7 +44,7 @@ body{
   font-size: 15px;
 }
 .contact:hover i{
-  transform: translateY(-40px);
+  transform: translateY(-30px);
 }
 
 .bg{

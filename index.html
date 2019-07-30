@@ -48,8 +48,8 @@
       </label>
       <ul class="menu">
         <a href="#">Home</a>
-        <a href="#second">Photo</a>
-        <a href="#gallery-section">More</a>
+        <a href="#wrap">Photo</a>
+        <a href="#gallery-section">Gallery</a>
         <a href="#footer">Contact</a>
         <label for="chk" class="hide-menu-btn">
           <i class="fas fa-times"></i>
@@ -58,10 +58,9 @@
     </div>
     <div style='position:absolute;top:0;'class="bg">
       <div class="box">
-        <img src="profile.jpg" alt="" class="box-img">
-        <h1>CHENG YI</h1>
+        <img src="profile.jpg" alt="" class="box-img"><br><br>
+        <h1>CHENG YI</h1><br>
         <!-- <h5>Web Devloper - Justice</h5> -->
-        <p>To be, to believe.</p>
       <ul>
         <li><a href="https://www.facebook.com/profile.php?id=100000441501124&ref=bookmarks"><i class="fab fa-facebook-square"></i></a></li>
         <li><a href="https://www.instagram.com/js.1128/?hl=zh-tw"><i class="fab fa-instagram"></i></a></li>
@@ -69,16 +68,17 @@
       </ul>
       </div>
     </div>
-    <div id="second" style='position: relative;top:1200px;'>
-      <h1></h1><br><br><br><br><br>
+    <div  style='position: relative;top:1200px;'>
+      <h1></h1><br><br><br>
+      <div ></div>
       <div class="wrap" id="wrap">
         <div class="slide" id="slide">
           <ul>
-              <li><a href="1.jpg"><img src="1.jpg" alt=""/></a></li>
-              <li><a href="2.jpg"><img src="2.jpg" alt=""/></a></li>
-              <li><a href="3.jpg"><img src="3.jpg" alt=""/></a></li>
-              <li><a href="4.jpg"><img src="4.jpg" alt=""/></a></li>
-              <li><a href="5.jpg"><img src="5.jpg" alt=""/></a></li>
+              <li><a ><img src="1.jpg" alt=""/></a></li>
+              <li><a ><img src="2.jpg" alt=""/></a></li>
+              <li ><a ><img src="3.jpg" alt=""/></a></li>
+              <li><a ><img src="4.jpg" alt=""/></a></li>
+              <li><a ><img src="5.jpg" alt=""/></a></li>
           </ul>
           <div class="arrow" id="arrow">
               <a href="javascript:;" class="prev" id="arrLeft"></a>
@@ -130,13 +130,13 @@
           enabled: true
         }
       })
-      $('.slide').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: {
-          enabled: true
-        }
-      })
+      // $('.slide').magnificPopup({
+      //   delegate: 'a',
+      //   type: 'image',
+      //   gallery: {
+      //     enabled: true
+      //   }
+      // })
     </script>
     <div class="footer" id="footer" style='position: relative;top:1550px;'>
       <div class="contact">
