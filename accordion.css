@@ -1,0 +1,14 @@
+.slide ul,li,p{margin: 0px;padding: 0px; list-style:none;}
+ #wrap{width: 1150px;height: 500px;padding: 0px;margin: 0px auto;overflow: hidden;box-shadow:0 0 20px;}
+.slide{width: 3200px;}
+.slide li{float: left;width: 100px;height: 500px;;position: relative;
+      -moz-transition:width 2s;
+      transition: width 2s;
+     -moz-transition: width 2s; /* Firefox 4 */
+     -webkit-transition: width 2s; /* Safari 和 Chrome */
+     -o-transition: width 2s; /* Opera */
+  }
+.slide:hover li{width: 100px;}
+.slide li:hover{width: 750px;}
+.slide li p{width: 100%;height: 100%;opacity: 0.5;position: absolute;top: 0px;left: 0px;background-color: rgba(0, 0, 0, 0.5); }
+.slide li:hover p{opacity:0}
