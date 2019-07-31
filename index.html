@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="apple-touch-fullscreen" content="YES">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <script src="https://kit.fontawesome.com/7d55a4ffaa.js"></script>
@@ -75,11 +75,11 @@
       <div class="wrap" id="wrap">
         <!-- <div class="slide" id="slide"> -->
           <ul class="slide" id="slide">
-            <li><img src="1.jpg" style="width:750px;height:500px;"><p></p></li>
-            <li><img src="2.jpg" style="width:750px;height:500px;"><p></p></li>
-            <li><img src="3.jpg" style="width:750px;height:500px;"><p></p></li>
-            <li><img src="4.jpg" style="width:750px;height:500px;"><p></p></li>
-            <li><img src="5.jpg" style="width:750px;height:500px;"><p></p></li>
+            <li><a href="1.jpg"><img src="1.jpg" style="width:750px;height:500px;"><p></p></a></li>
+            <li><a href="2.jpg"><img src="2.jpg" style="width:750px;height:500px;"><p></p></a></li>
+            <li><a href="3.jpg"><img src="3.jpg" style="width:750px;height:500px;"><p></p></a></li>
+            <li><a href="4.jpg"><img src="4.jpg" style="width:750px;height:500px;"><p></p></a></li>
+            <li><a href="5.jpg"><img src="5.jpg" style="width:750px;height:500px;"><p></p></a></li>
           </ul>
           <!-- <div class="arrow" id="arrow">
               <a href="javascript:;" class="prev" id="arrLeft"></a>
@@ -131,13 +131,13 @@
           enabled: true
         }
       })
-      // $('.slide').magnificPopup({
-      //   delegate: 'a',
-      //   type: 'image',
-      //   gallery: {
-      //     enabled: true
-      //   }
-      // })
+      $('.slide').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+          enabled: true
+        }
+      })
     </script>
     <div class="footer" id="footer" style='position: relative;top:1550px;'>
       <div class="contact">
